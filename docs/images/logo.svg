@@ -1,0 +1,46 @@
+<svg version="1.1" height="256" width="256" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad_one" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color: rgb(255, 255, 0);stop-opacity: 1" />
+            <stop offset="100%" style="stop-color: rgb(255, 0, 0);stop-opacity: 1" />
+        </linearGradient>
+        <!-- Gradient for top left triangle -->
+        <linearGradient id="grad_top_left" x1="0%" y1="0%" x2="0%" y2="100%" gradientTransform="rotate(30)">
+            <!-- yellow -->
+            <stop offset="0%" style="stop-color: rgb(255, 211, 0);stop-opacity: 1" />
+            <!-- emerald green -->
+            <stop offset="100%" style="stop-color: rgb(80, 220, 10);stop-opacity: 1" />
+        </linearGradient>
+
+        <!-- Gradient for top center triangle -->
+        <linearGradient id="grad_top_center" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(-10)">
+            <!-- yellow -->
+            <stop offset="0%" style="stop-color: rgb(255, 211, 0);stop-opacity: 1" />
+            <!-- orange -->
+            <stop offset="100%" style="stop-color: rgb(253, 106, 2);stop-opacity: 1" />
+        </linearGradient>
+    </defs>
+    <g transform="scale(0.3)">
+        <!-- Top left triangle -->
+        <polygon points="64,28 4,128 128,128" style="fill: #8BC34A; fill-opacity:0.8" />
+        <!-- Bottom left triangle -->
+        <polygon transform="translate(0 4)" points="4,128 64,228 128,128" style="fill: #F44336; fill-opacity:0.8" />
+        <!-- Bottom center triangle -->
+        <polygon transform="translate(5 5)" points="64,228 192,228 128,128" style="fill: #2196F3; fill-opacity:0.8" />
+    </g>
+    <g>
+        <!--<text x="84" y="30" font-family="'Open Sans'" font-size="44" style="fill: #212121">open</text>-->
+        <!-- veta? ronaki? openpanel? panel? Settle on veta for now i guess-->
+        <text x="55" y="55" font-family="'Open Sans'" font-weight="400" font-size="50" style="fill: #212121">veta</text>
+    </g>
+<!--    
+    Bottom center triangle
+    <polygon points="64,228 192,228 128,128" style="fill: #2196F3;" />
+
+    Bottom left triangle
+    <polygon transform="translate(100 -20) rotate(15)" points="4,128 64,228 128,128" style="fill: #F44336;" />
+
+    Top left triangle
+    <polygon transform="translate(0 60) rotate(-25)" points="64,28 4,128 128,128" style="fill: #8BC34A;" />
+-->
+</svg>
